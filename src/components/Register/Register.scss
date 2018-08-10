@@ -1,0 +1,13 @@
+.component-register {
+    form {
+        width: 300px;
+        button {
+            &:first-of-type {
+                float: left;
+            }
+            &:last-of-type {
+                float: right;
+            }
+        }
+    }
+}

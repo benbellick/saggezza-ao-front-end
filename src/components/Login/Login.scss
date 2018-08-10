@@ -1,0 +1,48 @@
+@import '../../styles/variables.scss';
+
+.component-login {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 100%;
+    height: 100vh;
+
+    background-image: url('../../assets/images/chicago-splash.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    .login-wrapper {
+        width: 500px;
+        max-width: 500px;
+        padding: 0 #{padding-default};
+    }
+    img {
+        width: 100%;
+    }
+    form {
+        display: inline-block;
+
+        width: 100%;
+    }
+    input {
+        display: inline-block;
+
+        width: 100%;
+        margin-bottom: 15px;
+
+        opacity: 0.8;
+    }
+    button {
+        display: inline-block;
+        float: right;
+
+        width: 100%;
+    }
+    p {
+        font-weight: bold;
+
+        margin-top: 10px;
+
+        text-align: center;
+    }
+}

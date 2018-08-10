@@ -1,0 +1,59 @@
+
+{
+    "hr": {
+        "get_app_offer_from_recruiter": "Get application and offer letter from recruiters",
+        "send_offer_letter_w_bgcheck": "Send Offer Letter (CC recruiter), with background check form",
+        "coordinate_first_day": "Coordinate first day with training",
+        "add_start_date_to_operations_calendar": "Add new employee start date to operations calendar and checklist",
+        "run_and_check_bg_report": " Run and check background report",
+        "employ_agreement_dd_i9_photo_release_w4": "Employee agreement, DD, I-9, photo release, W4",
+        "enter_into_adp": "Enter employee and documents into ADP",
+        "manilla_folder_w_i9": "Create manila folder with I-9 documents",
+        "run_e_verify": "Run E-Verify",
+        "update_utilization_recruitment_status": "Update utilization and recruitment status Starters Tab"
+    },
+    "it": {
+        "assign_computer": "Assign computer",
+        "track_equipment": "Track equipment in management tool",
+        "hardware_software_needed": "Gather other hardware and software needed",
+        "give_equipment_to_training": "Give all equipment to training",
+        "generate_email": "Generate email",
+        "assign_phone_number": "Assign phone number (if applicable)",
+        "create_8x8_profile": "Create user profile in 8x8 (if applicable)",
+        "add_to_dl": "Add to DLs for us_employees and respective city"
+    },
+    "office_management": {
+        "business_cards": "Get business cards (if applicable)",
+        "assign_workspace": "Assign workspace",
+        "add_to_visitors_list": "Add to visitor's list",
+        "schedule_keycard": "Schedule a time to get new hire their keycard",
+        "activate_keycard": "Activate their key card",
+        "request_it_phone_setup": "Request IT for phone setup (if applicable)",
+        "mail_laptop_welcome_kit": "Mail laptop and welcome kit (remote only)"
+    },
+    "operations": {
+        "create_intacct_user": "Create Intacct User",
+        "request_pm_add_projects_tasks": "Request PM to add to project and tasks",
+        "enroll_lifestart_gym": "Enroll in Lifestart/Gym (if applicable)",
+        "add_cta_ventra_rta": "Add to CTA/Ventra or RTA (if applicable)"
+    },
+    "recruiting": {
+        "check_references": "Check references",
+        "send_finished_app_to_hr": "Send finished application to HR with Offer Letter email",
+        "cc_hr_offer_letter_confirm_w_socka": "CC HR on Offer Letter Confirmation with Socka"
+    },
+    "training": {
+        "add_to_utilization_report": "Add new empoyee to utilzation report - all tabs",
+        "new_hire_welcome_folder": "Prepare new hire welcome folder (on-site)",
+        "new_hire_welcome_letter_remote": "Prepare new hire welcome letter (remote)",
+        "new_hire_welcome_kit": "Prepare new hire welcome kit (backpack, waterbottle, notebook, etc.)",
+        "handoff_welcome_kit": "Hand off welcome kit to office managment",
+        "first_day_schedule": "Create first day schedule",
+        "welcome_lunch": "Set up welcome lunch (on-site)",
+        "send_first_day_details": "Send first day details",
+        "email_jeff_user_request_form": "Email Jeff user request form (Art Van)",
+        "art_van_slack": "Put in Slack (Art Van)",
+        "quarterly_townhall": "Send calendar invite to quarterly townhall",
+        "remote_zoom_welcome": "Zoom welcome (remote)"
+    }
+}

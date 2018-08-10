@@ -1,0 +1,29 @@
+.component-add-candidate {
+
+    color: black;
+
+}
+
+.checkboxgroup{
+    display:inline-block;
+    text-align:center;
+}
+.checkboxgroup label {
+    display:inline-block;
+    width: 150px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+input[type="radio"] {
+
+    height: 20px;
+    margin-bottom: 15px;
+
+}
+
+.invalid {
+    border-style: solid;
+    border-color: red;
+    border-width: 5px;
+}

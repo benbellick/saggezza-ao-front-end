@@ -1,0 +1,132 @@
+@import './variables.scss';
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400,700');
+
+body {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    * {
+        font-family: 'Lato', sans-serif;
+        font-size: 14px;
+
+        box-sizing: border-box;
+
+        color: $text-color-dark;
+    }
+}
+
+.App > div {
+    /* padding: 10px; */
+}
+
+form {
+    input {
+        display: inline-block;
+
+        width: 100%;
+        margin-bottom: 15px;
+    }
+    fieldset {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+
+        border: none;
+    }
+    .split-column {
+        label {
+            display: inline-block;
+
+            width: calc(50% - #{$padding-default / 2});
+            &:last-of-type {
+                float: right;
+            }
+        }
+    }
+}
+
+input {
+    box-sizing: border-box;
+    height: 40px;
+    padding: 0 5px;
+
+    border: none;
+    border-bottom: $border;
+    outline: none;
+}
+
+p {
+    margin: 0;
+}
+
+a {
+    cursor: pointer;
+    text-decoration: underline;
+    &.return-link {
+        position: relative;
+        top: 0;
+        right: 0;
+
+        float: right;
+
+        color: $color-primary;
+    }
+}
+
+%button {
+    font-weight: bold;
+
+    box-sizing: border-box;
+    height: 40px;
+    padding-right: 15px;
+    padding-left: 15px;
+
+    cursor: pointer;
+    text-transform: uppercase;
+
+    border: none;
+    border-radius: 5px;
+    outline: none;
+}
+
+.button-primary-blue {
+    color: $color-white;
+    background-color: $color-primary;
+    z-index: 90;
+@extend %button;
+
+    
+}
+
+.button-primary-pink {
+    color: $color-white;
+    background-color: $color-secondary;
+
+@extend %button;
+}
+
+.button-primary-danger {
+    color: $color-white;
+    background-color: $color-danger;
+    z-index: 90;
+
+@extend %button;
+}
+
+.button-secondary-blue {
+    color: $color-primary;
+    border: solid 2px $color-primary;
+    background-color: $color-white;
+    padding-right: 34px;
+    padding-left: 34px;
+
+@extend %button;
+}
+
+.pressed {
+    background-color: $color-primary;
+    color: $color-white;
+}
+
+
+

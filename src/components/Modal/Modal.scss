@@ -1,0 +1,47 @@
+@import '../../styles/variables.scss';
+
+.component-modal {
+    position: fixed;
+    z-index: 99999;
+    top: 0;
+    left: 0;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 100vw;
+    height: 100vh;
+
+    background-color: rgba($color-dark, 0.5);
+
+    .modal-wrapper {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+
+        width: 40%;
+        min-width: 300px;
+        max-width: 600px;
+        min-height: 200px;
+        margin-top: -25%;
+        padding: $padding-default;
+
+        border: $border;
+        border-radius: 5px;
+        background-color: $color-white;
+    }
+
+    .button-wrapper {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    button:last-of-type {
+        margin-left: auto;
+    }
+
+    h3 {
+        margin: 0 0 $padding-default 0;
+    }
+}

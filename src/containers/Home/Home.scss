@@ -1,0 +1,32 @@
+@import '../../styles/variables.scss';
+
+.container-home {
+}
+
+.card-background {
+    width: 100%;
+    min-height: 100vh;
+    padding: $padding-default;
+    padding-top:calc(#{$height-header} + #{$card-margin});
+
+    background-color: $color-background;
+}
+
+.page-card {
+    position: relative;
+
+    width: 100%;
+    max-width: 900px;
+    min-height: 50px;
+    margin: 0 auto $card-margin;
+    padding: $padding-default;
+
+    background-color: $color-white;
+
+    /* &:first-of-type {
+        margin-top: calc(#{$height-header} + #{$card-margin});
+    } */
+    &:last-of-type {
+        margin-bottom: 0;
+    }
+}
